@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string-array name="actions_button">
+        <item>@+id/bT0</item>
+        <item>@+id/bT1</item>
+        <item>@+id/bT2</item>
+        <item>@+id/bT3</item>
+        <item>@+id/bT4</item>
+        <item>@+id/bT5</item>
+        <item>@+id/bT6</item>
+        <item>@+id/bT7</item>
+        <item>@+id/bT8</item>
+        <item>@+id/bT9</item>
+        <item>@+id/bT10</item>
+        <item>@+id/bT11</item>
+        <item>@+id/bT12</item>
+        <item>@+id/bT13</item>
+        <item>@+id/bT14</item>
+        <item>@+id/bT15</item>
+    </string-array>
+    <string-array name="actions_shengyin">
+        <item>@raw/num7</item>
+        <item>@raw/num8</item>
+        <item>@raw/num9</item>
+        <item>@raw/chu</item>
+        <item>@raw/num4</item>
+        <item>@raw/num5</item>
+        <item>@raw/num6</item>
+        <item>@raw/jian</item>
+        <item>@raw/num1</item>
+        <item>@raw/num2</item>
+        <item>@raw/num3</item>
+        <item>@raw/plus</item>
+        <item>@raw/num0</item>
+        <item>@raw/dian</item>
+        <item>@raw/dengyu</item>
+        <item>@raw/cheng</item>
+    </string-array>
+</resources>

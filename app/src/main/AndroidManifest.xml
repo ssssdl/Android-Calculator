@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.r_web.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/FullScreenTheme"> <!-- 设置没有标题栏并且全屏 -->
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"><!--android:screenOrientation="portrait"设置只能竖屏-->
+
+        </activity>
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait">
+            <intent-filter><!--这四行放在activity标签中代表这个活动是第一个启动-->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter><!--end-->
+        </activity>
+    </application>
+
+</manifest>
